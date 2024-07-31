@@ -1,0 +1,78 @@
+body{
+    font-family: Lora, sans-serif;
+    color: #333;
+    font-size: 14px;
+    line-height: 20px;
+    margin: 0; 
+    min-height: 100%;
+    background-color: #fff;
+    line-height: 20px;}
+.fa-solid fa-ellipsis{
+    color: #333;
+    font-size: large;}
+a {
+    font-size: 11px;
+    letter-spacing: .1rem;
+    padding: 10px 15px;
+    display: inline-block;
+    text-decoration: none !important;
+    color: rgba(0, 0, 0, 0.5);
+    position: relative;
+    font-weight: 700;}
+li {
+    list-style: none;
+    text-transform: uppercase;
+    display: inline-block;}
+.menu{
+    display:none;}
+.ul{
+    margin: 0px;
+    width: 100%;}
+#nav{
+    z-index: 9999;
+    position: absolute;
+    width: 100%;
+    top: 0px;
+    margin-top: 14px;
+    text-align: center;}
+.logo {
+        font-size: 20px;
+        color: #000000;
+        font-family: Lora, sans-serif;
+        font-weight: 700;
+        left: 0px;}
+#nav_side{
+    display: flex;
+    text-align: center;
+    align-items: center;
+    padding-left: 7rem;
+    padding-right: 7rem;}
+.icons-con {
+    width: 150px;
+    color: white}
+#icons-con{
+    background-color: rgba(0, 0, 0, 0.2);
+    border-bottom-left-radius: 20px;
+    border-top-right-radius: 5px;
+    border-bottom: solid black 1px;}
+#icons{
+    font-size: 20px;
+    padding-left: 3px;}
+.home {
+    width: 50%;
+    height: 35rem;}
+#home-con{
+    display: flex;
+    border-bottom: solid black 1px;}
+#right-home{
+    background-image: url("gra.jpg");
+    background-size: cover;
+    background-position: center;
+    position: relative;}
+
+
+
+
+
+
+
