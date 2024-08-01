@@ -25,10 +25,6 @@
   box-sizing: border-box;
 }
 
-/* body,html {
-  height: 100%;
-  font-family: Poppins-Regular, sans-serif; }*/
-
 body {
   font-family: Lora, sans-serif;
   color: #333;
@@ -84,9 +80,10 @@ a:hover {
 
 /* Apply the animation on hover */
 
+.year-txt:hover,
 #icons:hover,
 a:hover {
-  /* background-color-change */
+  /* color-change */
 
   animation: gradient-animation 10s ease-in-out;
   background: -webkit-linear-gradient(left, #21d4fd, #b721ff);
@@ -96,4 +93,34 @@ a:hover {
   -webkit-background-clip: text;
   color: transparent;
   background-clip: text;
+}
+
+.box99 {
+  min-height: 10rem;
+
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: center;
+  gap: 16px;
+  max-width: 1400px;
+  margin: 0 auto;
+  padding: 20px 10px;
+  width: 100%;
+}
+
+.box98 {
+  min-width: 300px;
+  height: 300px;
+  border-radius: 10px;
+  padding: 20px;
+}
+
+.box98:hover {
+  animation: bounce 2s ease-out;
+}
+
+.hr {
+  padding: 30px 30px;
 }

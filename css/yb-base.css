@@ -7,7 +7,7 @@ li a:hover {
   -ms-box-shadow: 0 5px 10px 0 rgba(0, 0, 0, 0.1);
 
   /* jump */
-  animation: jump 0.6s ease; /* Adjust the duration as needed */
+  animation: rubberBand 0.6s ease; /* Adjust the duration as needed */
 }
 li a:active {
   border-bottom: solid black 1px;
@@ -63,6 +63,7 @@ li {
   padding-right: 7rem;
 }
 .icons-con {
+  animation: rubberBand 3s ease;
   width: 150px;
   color: white;
 }
@@ -82,11 +83,12 @@ li {
 }
 #home-con {
   display: flex;
-  border-bottom: solid black 1px;
+  /* border-bottom: solid black 1px; */
 }
 #right-home {
-  background-image: url("gra.jpg");
+  background-image: url("../pic/gra.jpg");
   background-size: cover;
   background-position: center;
   position: relative;
+  border-bottom-left-radius: 20px;
 }

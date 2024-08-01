@@ -1,0 +1,29 @@
+.year-txt {
+  min-height: 30%;
+  display: flex;
+  justify-content: center;
+  align-content: center;
+  text-align: center;
+  border-bottom: solid #21d4fd 1px;
+  padding-bottom: 3px;
+  border-bottom-left-radius: 10px;
+}
+.year-txt h1 {
+  align-self: center;
+}
+.year-txt:hover {
+  /* shadow */
+  box-shadow: 0 5px 10px 0 rgba(0, 0, 0, 0.1);
+  -moz-box-shadow: 0 5px 10px 0 rgba(0, 0, 0, 0.1);
+  -webkit-box-shadow: 0 5px 10px 0 rgba(0, 0, 0, 0.1);
+  -o-box-shadow: 0 5px 10px 0 rgba(0, 0, 0, 0.1);
+  -ms-box-shadow: 0 5px 10px 0 rgba(0, 0, 0, 0.1);
+}
+.year-txt:hover {
+  border-bottom: solid #b721ff 1px !important;
+}
+.box98 {
+  animation: fadeIn 2s ease-in;
+  border: solid #21d4fd 1px !important;
+  background-color: rgba(0, 0, 0, 0.05);
+}
