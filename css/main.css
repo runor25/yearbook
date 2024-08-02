@@ -97,7 +97,6 @@ a:hover {
 
 .box99 {
   min-height: 10rem;
-
   display: flex;
   flex-direction: row;
   flex-wrap: wrap;
@@ -111,13 +110,38 @@ a:hover {
 }
 
 .box98 {
+  border: solid #21d4fd 1px !important;
   min-width: 300px;
   height: 300px;
   border-radius: 10px;
   padding: 20px;
+  background-image: url("../pic/hat.jpg");
+  background-size: cover;
+  background-position: center;
+  position: relative;
 }
 
-.box98:hover {
+.box97 {
+  width: 500px;
+  border: solid #21d4fd 1px !important;
+  height: 500px;
+  border-radius: 10px;
+  position: relative;
+}
+.box97 .img-con {
+  height: 350px;
+  width: 500px;
+}
+
+.box98:hover,
+.box97:hover {
+  /* shadow */
+  box-shadow: 0 5px 10px 0 rgba(0, 0, 0, 0.1);
+  -moz-box-shadow: 0 5px 10px 0 rgba(0, 0, 0, 0.1);
+  -webkit-box-shadow: 0 5px 10px 0 rgba(0, 0, 0, 0.1);
+  -o-box-shadow: 0 5px 10px 0 rgba(0, 0, 0, 0.1);
+  -ms-box-shadow: 0 5px 10px 0 rgba(0, 0, 0, 0.1);
+
   animation: bounce 2s ease-out;
 }
 

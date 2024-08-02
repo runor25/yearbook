@@ -22,8 +22,7 @@
 .year-txt:hover {
   border-bottom: solid #b721ff 1px !important;
 }
-.box98 {
+.box98,
+.box97 {
   animation: fadeIn 2s ease-in;
-  border: solid #21d4fd 1px !important;
-  background-color: rgba(0, 0, 0, 0.05);
 }
