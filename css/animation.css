@@ -11,6 +11,28 @@
   --animate-delay: 1s;
   --animate-repeat: 1;
 }
+
+/* Define the jumping animation */
+@keyframes jump {
+  0%,
+  100% {
+    transform: translateY(0);
+  }
+  50% {
+    transform: translateY(
+      -6px
+    ); /* Adjust the value to control the jump height */
+  }
+}
+@keyframes gradient-animation {
+  0% {
+    background-position: 0% 50%;
+  }
+  100% {
+    background-position: 100% 50%;
+  }
+}
+
 @-webkit-keyframes bounce {
   to {
     -webkit-animation-timing-function: cubic-bezier(0.215, 0.61, 0.355, 1);

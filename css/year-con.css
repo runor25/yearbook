@@ -11,18 +11,3 @@
 .year-txt h1 {
   align-self: center;
 }
-.year-txt:hover {
-  /* shadow */
-  box-shadow: 0 5px 10px 0 rgba(0, 0, 0, 0.1);
-  -moz-box-shadow: 0 5px 10px 0 rgba(0, 0, 0, 0.1);
-  -webkit-box-shadow: 0 5px 10px 0 rgba(0, 0, 0, 0.1);
-  -o-box-shadow: 0 5px 10px 0 rgba(0, 0, 0, 0.1);
-  -ms-box-shadow: 0 5px 10px 0 rgba(0, 0, 0, 0.1);
-}
-.year-txt:hover {
-  border-bottom: solid #b721ff 1px !important;
-}
-.box98,
-.box97 {
-  animation: fadeIn 2s ease-in;
-}

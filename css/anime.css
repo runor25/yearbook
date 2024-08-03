@@ -1,0 +1,78 @@
+.page-title:hover {
+  animation: bounce 1s ease-out;
+}
+
+li a:hover {
+  /* shadow */
+  box-shadow: 0 5px 10px 0 rgba(0, 0, 0, 0.1);
+  -moz-box-shadow: 0 5px 10px 0 rgba(0, 0, 0, 0.1);
+  -webkit-box-shadow: 0 5px 10px 0 rgba(0, 0, 0, 0.1);
+  -o-box-shadow: 0 5px 10px 0 rgba(0, 0, 0, 0.1);
+  -ms-box-shadow: 0 5px 10px 0 rgba(0, 0, 0, 0.1);
+
+  /* jump */
+  animation: rubberBand 0.6s ease; /* Adjust the duration as needed */
+}
+
+li a:active {
+  border-bottom: solid black 1px;
+  padding-bottom: 3px;
+  border-bottom-left-radius: 10px;
+}
+
+.year-txt:hover {
+  /* shadow */
+  box-shadow: 0 5px 10px 0 rgba(0, 0, 0, 0.1);
+  -moz-box-shadow: 0 5px 10px 0 rgba(0, 0, 0, 0.1);
+  -webkit-box-shadow: 0 5px 10px 0 rgba(0, 0, 0, 0.1);
+  -o-box-shadow: 0 5px 10px 0 rgba(0, 0, 0, 0.1);
+  -ms-box-shadow: 0 5px 10px 0 rgba(0, 0, 0, 0.1);
+}
+.year-txt:hover {
+  border-bottom: solid #b721ff 1px !important;
+}
+/* .box98,
+  .box97 {
+    animation: fadeIn 2s ease-in;
+  } */
+
+.page-title:hover,
+.year-txt:hover,
+#icons:hover,
+a:hover {
+  /* color-change */
+
+  animation: gradient-animation 0.9s eases;
+  background: -webkit-linear-gradient(left, #21d4fd, #b721ff);
+  background: -o-linear-gradient(left, #21d4fd, #b721ff);
+  background: -moz-linear-gradient(left, #21d4fd, #b721ff);
+  background: linear-gradient(left, #21d4fd, #b721ff);
+  -webkit-background-clip: text;
+  color: transparent;
+  background-clip: text;
+}
+
+a:hover {
+  text-decoration: none;
+  color: #6a7dfe;
+}
+
+.box98:hover,
+.box97:hover {
+  /* shadow */
+  box-shadow: 0 5px 10px 0 rgba(0, 0, 0, 0.1);
+  -moz-box-shadow: 0 5px 10px 0 rgba(0, 0, 0, 0.1);
+  -webkit-box-shadow: 0 5px 10px 0 rgba(0, 0, 0, 0.1);
+  -o-box-shadow: 0 5px 10px 0 rgba(0, 0, 0, 0.1);
+  -ms-box-shadow: 0 5px 10px 0 rgba(0, 0, 0, 0.1);
+
+  animation: jump 0.6s ease-in;
+}
+
+/* .page-title:hover {
+  text-shadow: 0 5px 10px 0 rgba(0, 0, 0, 0.1);
+  -moz-text-shadow: 0 5px 10px 0 rgba(0, 0, 0, 0.1);
+  -webkit-text-shadow: 0 5px 10px 0 rgba(0, 0, 0, 0.1);
+  -o-text-shadow: 0 5px 10px 0 rgba(0, 0, 0, 0.1);
+  -ms-text-shadow: 0 5px 10px 0 rgba(0, 0, 0, 0.1);
+} */
