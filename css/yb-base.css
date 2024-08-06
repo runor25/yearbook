@@ -66,9 +66,15 @@ li {
 }
 #home-con {
   display: flex;
-  height: 35rem;
+  height: 38rem;
+  background-color: beige;
+  border-bottom-left-radius: 20px;
   /* border-bottom: solid black 1px; */
 }
+#left-home {
+  position: relative;
+}
+
 #right-home {
   background-image: url("../pic/gra.jpg");
   background-size: cover;

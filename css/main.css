@@ -6,13 +6,18 @@
 
 body {
   font-family: Lora, sans-serif;
-  color: #333;
   font-size: 14px;
   line-height: 20px;
   margin: 0;
   min-height: 100%;
-  background-color: #fff;
   line-height: 20px;
+}
+
+.back-im {
+  background-image: url("../pic/back.jpg");
+  background-attachment: fixed;
+  background-size: cover;
+  background-position: center;
 }
 
 button {
@@ -140,4 +145,25 @@ hr {
   align-self: end;
   text-transform: capitalize;
   padding: 50px 20px;
+}
+
+.user-con {
+  height: 300px;
+  width: 300px;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  text-align: center;
+}
+.user-nam {
+  font-size: larger;
+  padding: 10px;
+}
+.user-im {
+  height: 250px;
+  width: 250px;
+  margin: 0 auto;
+  border-radius: 50px;
+  background-color: #000000;
 }
