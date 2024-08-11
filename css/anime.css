@@ -1,8 +1,15 @@
-.page-title:hover {
+/* .page-title:hover {
   animation: bounce 1s ease-out;
+} */
+.page-title {
+  animation: zoomInDown 2s ease-in;
+}
+.user-nam {
+  animation: zoomIn 1s ease-out;
 }
 
-li a:hover {
+li a:hover,
+.year-txt:hover {
   /* shadow */
   box-shadow: 0 5px 10px 0 rgba(0, 0, 0, 0.1);
   -moz-box-shadow: 0 5px 10px 0 rgba(0, 0, 0, 0.1);
@@ -11,7 +18,7 @@ li a:hover {
   -ms-box-shadow: 0 5px 10px 0 rgba(0, 0, 0, 0.1);
 
   /* jump */
-  animation: rubberBand 0.6s ease; /* Adjust the duration as needed */
+  animation: rubberBand 1s ease-in-out; /* Adjust the duration as needed */
 }
 
 li a:active {
@@ -60,6 +67,16 @@ a:hover {
 .box98:hover,
 .box97:hover {
   /* shadow */
+  box-shadow: 0 5px 10px 0 rgba(255, 255, 255, 0.5);
+  -moz-box-shadow: 0 5px 10px 0 rgba(255, 255, 255, 0.5);
+  -webkit-box-shadow: 0 5px 10px 0 rgba(255, 255, 255, 0.5);
+  -o-box-shadow: 0 5px 10px 0 rgba(255, 255, 255, 0.5);
+  -ms-box-shadow: 0 5px 10px 0 rgba(255, 255, 255, 0.5);
+
+  animation: jump 0.6s ease-in;
+}
+
+.user-im:hover {
   box-shadow: 0 5px 10px 0 rgba(0, 0, 0, 0.1);
   -moz-box-shadow: 0 5px 10px 0 rgba(0, 0, 0, 0.1);
   -webkit-box-shadow: 0 5px 10px 0 rgba(0, 0, 0, 0.1);
@@ -68,11 +85,3 @@ a:hover {
 
   animation: jump 0.6s ease-in;
 }
-
-/* .page-title:hover {
-  text-shadow: 0 5px 10px 0 rgba(0, 0, 0, 0.1);
-  -moz-text-shadow: 0 5px 10px 0 rgba(0, 0, 0, 0.1);
-  -webkit-text-shadow: 0 5px 10px 0 rgba(0, 0, 0, 0.1);
-  -o-text-shadow: 0 5px 10px 0 rgba(0, 0, 0, 0.1);
-  -ms-text-shadow: 0 5px 10px 0 rgba(0, 0, 0, 0.1);
-} */

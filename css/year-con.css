@@ -1,12 +1,14 @@
 .year-txt {
-  min-height: 30%;
-  display: flex;
-  justify-content: center;
+  gap: 20px;
   align-content: center;
   text-align: center;
-  border-bottom: solid #21d4fd 1px;
-  padding-bottom: 3px;
-  border-bottom-left-radius: 10px;
+  border: solid #0097b9 1px;
+  padding: 10px;
+  border-radius: 5px;
+
+  font-family: "Grey Qo", cursive;
+  font-weight: 400;
+  font-style: normal;
 }
 .year-txt h1 {
   align-self: center;
