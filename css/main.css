@@ -13,6 +13,13 @@ body {
   line-height: 20px;
 }
 
+.color-light {
+  color: rgb(250, 232, 235);
+}
+.color-blue {
+  color: blue;
+}
+
 .back-im {
   background-image: url("../pic/back.jpg");
   background-attachment: fixed;
@@ -162,8 +169,10 @@ hr {
   text-align: center;
 }
 .user-nam {
+  display: flex;
   font-size: larger;
   padding: 10px;
+  justify-content: center;
 }
 .user-im {
   height: 250px;
@@ -195,9 +204,22 @@ hr {
   border-bottom-left-radius: 10px;
 }
 
+.break-box1 {
+  font-family: "Platypi", serif;
+  font-weight: 600;
+  font-size: 34px;
+  padding: 100px;
+  padding-left: 10%;
+  margin-top: 30px;
+  background-color: rgba(0, 0, 0, 0.5);
+}
+
 .user-co {
   align-self: center;
   height: 300px;
   width: 300px;
   text-align: center;
+}
+.space {
+  padding-left: 3px;
 }

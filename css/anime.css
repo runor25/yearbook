@@ -26,7 +26,7 @@ li a:active {
   padding-bottom: 3px;
   border-bottom-left-radius: 10px;
 }
-
+.box-dark:hover,
 .year-txt:hover {
   /* shadow */
   box-shadow: 0 5px 10px 0 rgba(0, 0, 0, 0.1);
@@ -64,8 +64,7 @@ a:hover {
   color: #6a7dfe;
 }
 
-.box98:hover,
-.box97:hover {
+.box-light:hover {
   /* shadow */
   box-shadow: 0 5px 10px 0 rgba(255, 255, 255, 0.5);
   -moz-box-shadow: 0 5px 10px 0 rgba(255, 255, 255, 0.5);
@@ -77,11 +76,5 @@ a:hover {
 }
 
 .user-im:hover {
-  box-shadow: 0 5px 10px 0 rgba(0, 0, 0, 0.1);
-  -moz-box-shadow: 0 5px 10px 0 rgba(0, 0, 0, 0.1);
-  -webkit-box-shadow: 0 5px 10px 0 rgba(0, 0, 0, 0.1);
-  -o-box-shadow: 0 5px 10px 0 rgba(0, 0, 0, 0.1);
-  -ms-box-shadow: 0 5px 10px 0 rgba(0, 0, 0, 0.1);
-
   animation: jump 0.6s ease-in;
 }

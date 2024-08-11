@@ -1,3 +1,6 @@
+@import url("https://fonts.googleapis.com/css2?family=Grey+Qo&family=Platypi:ital,wght@0,300..800;1,300..800&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Archivo+Black&family=Grey+Qo&family=Lobster&family=Pacifico&family=Platypi:ital,wght@0,300..800;1,300..800&family=Qwigley&display=swap");
+
 .fa-solid fa-ellipsis {
   color: #333;
   font-size: large;
@@ -34,8 +37,7 @@ li {
 .logo {
   font-size: 20px;
   color: #000000;
-  font-family: Lora, sans-serif;
-  font-weight: 700;
+  font-weight: 400;
   left: 0px;
 }
 #nav_side {
@@ -46,6 +48,7 @@ li {
   padding-right: 7rem;
 }
 .icons-con {
+  font-family: "Pacifico", cursive;
   animation: rubberBand 3s ease;
   width: 150px;
   color: white;
